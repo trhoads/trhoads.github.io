@@ -1,0 +1,21 @@
+h1{ color : #1c6e8c}
+h2{
+	color:#989898;
+	
+}
+body { text-align:center;
+color: #00c5cd;
+font-family: 'Joti One', cursive;
+
+}
+.link {
+	
+	color: #00c5cd
+}
+
+circle{height:400px;}
+
+html {
+  font-size: 30px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: font-family: 'Joti One', cursive;
+}
