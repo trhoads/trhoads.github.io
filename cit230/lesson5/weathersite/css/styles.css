@@ -29,15 +29,7 @@ h3{
 	
 	font-size: 28pt;
 }
-footer{
-	color: black;
-	width: auto;
-	padding: auto;
-	border: 5px;
-	border-color:black;
-	position: center;
-	margin: auto;
-}
+
 
 #headerImage{
 	width: 200px;
@@ -86,10 +78,11 @@ li a.active {
 .t-a{
 	width: 95%;
   height: 300px;
-  border: #CED8BC 3px solid;
+  border: #CED8BC 1px solid;
   border-radius: 10px;
   float: right;
   margin: 10px;
+  overflow: auto;
 }
 
 
@@ -114,13 +107,16 @@ table td, table th {
 	background-color: #feda34;
 }
 
-#div-footer{
-	margin-top: 100px;
-	width: 300px;
-	background-color:red;
+
+
+
+.footer-bar{
+	
+	margin:1%;
+	position: center;
+	float:center;
+	width: 23%;
+	background-color:#42535b;
 }
 
-span{
-	margin: 200px;
-}
 
