@@ -1,0 +1,21 @@
+@media only screen and (min-width: ____37.5 em_______) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 10px;
+	background-color: #feda34;
+	margin-left: 20px;
+}
+  /* show the 10-day forecast with the medium view and up */
+
+  }

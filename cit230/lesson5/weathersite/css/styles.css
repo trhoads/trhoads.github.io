@@ -9,6 +9,10 @@ color:white;
 	margin-left: 10%; ;
 }
 
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width:37.5em; 
+                          /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
 
 }
 
@@ -130,17 +134,11 @@ li a.active {
 
 
 
-main{
-	padding: 10px;
-	margin:10px;
-	display:block;
-	color: black;
-	float:center;
-}
+
 
 h2{
 	font-size:20pt;
-	margin: 5px;
+	margin: 0px;
 }
 
 
