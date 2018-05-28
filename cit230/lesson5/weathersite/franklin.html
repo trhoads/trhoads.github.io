@@ -2,12 +2,14 @@
 <html lang="en-us">
 	<head> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/large-screen.css">
-		<link rel="stylesheet" href="css/medium.css">
-		<link rel="stylesheet" href="css/styles.css">
+		<title>
+		Franklin Weather Page
+		</title>
+		<link rel= "stylesheet" text = "text/css" href = "css/styles.css">
+		<script type="text/javascript" src="scripts/scripts.js">
 		
-		
+
+</script>
 		
 		
 	</head>
@@ -17,7 +19,8 @@
 		<div id ="wrapper">
 			<div class = "myNav">
 				<nav>
-					<ul>
+				<button id="navButton" onclick="toggleNavMenu()">&#9776;</button>
+					<ul id ="Nav">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Franklin</a></li>
 						<li><a href="#">Greenville</a></li>
@@ -28,39 +31,40 @@
 				</nav>
 			</div>
 			<div id= "slider">
-			<img id ="hurricane" class ="sliderImages" src = "image/hurricane.jpg">
+			<img id ="hurricane" class ="sliderImages" src = "image/sunny-day.jpg">
 			
 	
 			</div>
 		</div>
 		<div id="headerDiv">
 			<header>
-				<image id="headerimage"src="image/umbrella2.png">
 				<h3>Umbrella Weather :</h3>
-				<p id = "tagLine">
-                	We'll help you know when to use one			
+				<p>
+                	Tagline to go here			
 				</p>
+				<image id="headerimage"src="image/umbrella2.png">
+				
 			</header>	
 		</div>
 	<main>
 		<h2> </h2>
 		<figure>
+		
 		</figure>
 		<section class="weather-summary">
-			<h3>Weather Summary : Sunny</h3>    
-				<div class="highlow">
-				<p id ="high">High: 90&deg;F</p>  
-				<p id ="low">Low: 66&deg;F</p>  
-      </div>
-      <div class="current">
-        Sunny
+			<h3>Franklin</h3>
+      
+      
+        <strong>Sunny</strong>
         <picture>
-            <img src="image/sunny.png" alt="Sunny Symbol" id="sunny">
+         <img src="image/sunny.png" alt="Sunny Symbol" id="sunny">   
         </picture>
-		</div>   
+		 
       <div class="conditions">
-        <p>Precipitation:</p>  
-        <p>Wind Speed:</p>  
+	  <p>High: 90&deg;F</p>  
+	  <p>Low: 66&deg;F</p>  
+        <p>Precipitation: 0%</p>  
+        <p>Wind Speed: 5 mph SW</p>  
       </div>           
     </section>
         
@@ -126,9 +130,9 @@
     </main>
   <footer>
     <section class="contact">
-      Contact information placeholder
-      999.999.9999
-      123 Main St. Anytown, US 99999
+      Contact information placeholder<br>
+      999.999.9999 <br>
+      123 Main St. Anytown, US 99999 <br>
       Google Map
     </section>
     <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
