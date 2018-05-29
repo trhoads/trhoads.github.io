@@ -16,6 +16,6 @@ font-family: 'Joti One', cursive;
 circle{height:400px;}
 
 html {
-  font-size: 30px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-size: 30px; 
   font-family: font-family: 'Joti One', cursive;
 }

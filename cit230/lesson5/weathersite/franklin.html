@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta charset="UTF-8">
+		<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="image/crab.png" />
 		<title>
 		<img src="image/crab.png"></img>Franklin Weather Page
 		
 		</title>
-		<link rel= "stylesheet" text = "text/css" href = "css/normalize.css">
-		<link rel= "stylesheet" text = "text/css" href = "css/main-5.css">
-		<link rel= "stylesheet" text = "text/css" href = "css/medium-5.css">
-		<link rel= "stylesheet" text = "text/css" href = "css/large-5.css">
-		<script type="text/javascript" src="scripts/scripts.js">
+		<link rel= "stylesheet" type = "text/css" href = "css/normalize.css">
+		<link rel= "stylesheet" type = "text/css" href = "css/main-5.css">
+		<link rel= "stylesheet" type = "text/css" href = "css/medium-5.css">
+		<link rel= "stylesheet" type = "text/css" href = "css/large-5.css">
+		<script src="scripts/scripts.js">
 		</script>
 	</head>
 	<body>
 
   
-		<div id ="wrapper">
+		
 			<div class = "myNav">
 				<nav>
 				<button id="navButton" onclick="toggleNavMenu()">&#9776;</button>
@@ -37,21 +38,21 @@
 				<h3 id = "title">Under The Weather Umbrella</h3>
 				<p id= "tagline">
                 	Tagline to go here
-                    <image id = "crab" src="image/crab.png">					
-				</p>
-				<image id="headerimage"src="image/umbrella2.png">		
-	
-			</div>
-		</div>
-		
+                    <img id = "crab" alt ="crabPic" src="image/crab.png">
+                </p>        
+			</header>					
 				
-			</header>	
+				<img id= "headerimage" alt ="umbrella" src= "image/umbrella2.png">	
+	        </div>
+		
+		    
+				
+				
 			
 			<div id= "slider">
-			<img id ="hurricane" class ="sliderImages" src = "image/sunny-day.jpg">
+			<img id ="hurricane" class ="sliderImages" alt = "irma" src = "image/sunny-day.jpg">
 		</div>
 	<main>
-		<h2> </h2>
 		<figure>
 		
 		</figure>
@@ -110,7 +111,7 @@
 	<div class = "t-a">
       <h3>Franklin Breaks Heat Record</h3>
        	  
-      <img id = "futurama" src="image/my3suns.png">
+      <img id = "futurama" alt ="3 Suns" src="image/my3suns.png">
 	  <p class="town-article">
 	  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 	  Vestibulum tortor quam, feugiat vitae, ultricies eget, 
@@ -134,12 +135,12 @@
     </main>
   <footer>
     <section class="contact">
-      Contact information placeholder<br>
+      <h2>Umbrella Weather</h2><br>
       999.999.9999 <br>
       123 Main St. Anytown, US 99999 <br>
       Google Map
     </section>
-    <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
+    <section class="footer-bar"><h2>&copy;2018 | All Rights Reserved | Umbrella Weather |</h2> <span id="currentdate">May 25,2018</span>
     </section>
   </footer>
 </body>

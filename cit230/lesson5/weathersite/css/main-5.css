@@ -13,8 +13,8 @@ html{
 box-sizing: border-box;   
 color:black;
 	background-color:#f1f1a1;
-	float: center;
-	max-width: 37.5em;
+	float:relative;
+	max-width:37.5em;
     padding:2em;
 	
 }
@@ -140,9 +140,9 @@ margin-right: 1em;
 }
 
 .forecast{
-	/*display:none;
+	display:none;
 	
-*/}
+}
 
 th, td {
     text-align: left;
