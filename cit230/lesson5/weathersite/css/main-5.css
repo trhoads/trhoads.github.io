@@ -19,6 +19,19 @@ color:black;
 	
 }
 
+li {
+float:left;
+
+}
+li a {
+display: inline;
+color: black;
+text-align: center;
+padding: 8px 9px;
+background-color: #f1f1a1;
+
+}
+
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
   max-width:37.5em; 
                           /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
@@ -181,11 +194,11 @@ th:nth-child(even),td:nth-child(even) {
 	display:block;
 	margin:0;
 	margin-bottom:0;
-	background-color: #aaf8e5;
+	
 	
 }
 .footer-bar{
 	margin:0em;
-	background-color: #aaf8e5;
+	
 	margin-top:0;
 }

@@ -51,7 +51,7 @@ background-color: #f1f1a1;
 
 #headerimage{
 	width:100%;
-	float:top-right;
+	float:top;
 	
 }
 
@@ -91,4 +91,23 @@ width:64em;
 	 position: absolute ;
 	 padding:0;
 	 margin:0;
+ }
+ 
+ #futurama{
+	 width:25em;
+	 max-width:25em;
+	 border:5px;
+ }
+ 
+ .t-a{
+	 width: 75em;
+	 border:1px;
+	
+	 
+ }
+ 
+ .town-article{
+	 width:75em;
+	 max-width:100em;
+	 border:1px;
  }

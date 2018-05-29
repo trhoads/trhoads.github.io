@@ -1,5 +1,5 @@
 
-@media only screen and (min-width:37.5 em) {
+@media only screen and (min-width:37.5em) {
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
@@ -9,7 +9,14 @@
 	   display:block;
    }
   /* show the 10-day forecast with the medium view and up */
-ul{
-	display:block;
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+max-width: 160px;
+background-color: #f1f1a1;
+display: inline;
+margin: 1em;
+
 }
   }
