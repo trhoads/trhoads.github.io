@@ -18,5 +18,17 @@ background-color: #f1f1a1;
 display: inline;
 margin: 1em;
 
+
+}
+
+.mynav{
+overflow:hidden;
+}
+
+#slider{
+height: 15em;
+margin:1em;
+padding:1em;
+width:100%;
 }
   }
