@@ -1,0 +1,121 @@
+@media only screen and (min-width:64em ) {
+	
+ #navButton { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+   .forecast{
+	   display:block;
+   }
+   
+	
+	html{
+		width:64em;
+		max-width:64em;
+	
+	}
+	
+	header, nav, main, footer { 
+  max-width:64em; 
+                          
+}
+	
+#Nav{
+	display:inline;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+max-width: 1600px;
+background-color: #f1f1a1;
+display: inline;
+margin: 1em;
+
+}
+li {
+float:left;
+
+}
+li a {
+display: inline;
+color: black;
+text-align: center;
+padding: 8px 9px;
+background-color: #f1f1a1;
+
+}
+#headerDiv{
+	margin: 3em;
+	width:100%;
+	position: relative;
+	right:0;
+	height:100%;
+}
+
+#headerimage{
+	width:100%;
+	float:top;
+	
+}
+
+#wrapper {
+width: 100%;
+width:64em;
+}
+
+.sliderImages{
+
+ max-width: 64em;
+ max-height: 100%;
+ width: 100%;
+ 
+  }
+  
+  #headerDiv{
+	width: 100%;
+	height: 100%;
+	max-width:100%;
+	}
+	
+ #slider{
+   width:100%;
+   max-width:100%;
+   height:20em;
+   position:relative;
+    float:left;
+	
+	overflow:hidden;
+	margin-top:1em;
+	
+	
+	
+	
+ }
+ 
+ #sunny-day{
+	 height: 20em;
+	 position: absolute ;
+	 padding:0;
+	 margin:0;
+ }
+ 
+ #futurama{
+	 width:25em;
+	 max-width:25em;
+	 border:5px;
+ }
+ 
+ .t-a{
+	 width: 75em;
+	 border:1px;
+	
+	 
+ }
+ 
+ .town-article{
+	 width:75em;
+	 max-width:100em;
+	 border:1px;
+ }
+ 
+}
