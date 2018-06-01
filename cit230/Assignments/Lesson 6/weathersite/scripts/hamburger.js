@@ -53,7 +53,8 @@ function toggleNavMenu(){
 	 
 	
 	 }	 
-	 document.getElementById('currentdate').innerHTML = d; 
+	
+	document.getElementById('currentdate').innerHTML = d;
 	 
 	 }	        
 	
