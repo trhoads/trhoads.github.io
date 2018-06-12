@@ -1,0 +1,43 @@
+html{
+	font-family: Ubuntu, sans-serif
+}
+table {
+	border-collapse:collapse;
+}
+h1 {
+ background-color: 	#7fb9c2;
+	margin:0;
+	width:20.27%;
+	padding:0;
+}
+
+table th{
+	background-color: #628ca6;
+	color: white;
+	border: solid .5px white;
+}
+
+table td{
+	padding:5px;
+	text-align:center;
+	border: .5px 
+}
+
+table tr:nth-child(odd){
+	
+	background:white;
+}
+
+table tr:nth-child(even){
+	
+	background: #e7f0ed;
+}
+#NovemberSalesGoal{
+	background-color: #628ca6 ;
+	color: white;
+}
+
+tfoot td{
+	background-color: 	#7fb9c2;
+	border-collapse:collapse;
+}
