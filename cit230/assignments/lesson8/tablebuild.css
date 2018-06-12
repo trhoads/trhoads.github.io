@@ -3,6 +3,7 @@ html{
 }
 table {
 	border-collapse:collapse;
+	box-shadow: 5px 10px 5px 10px #d3d3d3;
 }
 h1 {
  background-color: 	#7fb9c2;
@@ -15,6 +16,7 @@ table th{
 	background-color: #628ca6;
 	color: white;
 	border: solid .5px white;
+	
 }
 
 table td{
