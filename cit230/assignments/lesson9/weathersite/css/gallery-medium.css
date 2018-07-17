@@ -1,0 +1,42 @@
+@media only screen and (min-width:37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    html{
+		
+	}
+    #navButton { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    #Nav{
+		display: inline-flex;
+		flex-direction: row;
+		
+	}
+	
+	
+   #galleryDIV{
+	   
+	display:grid;
+  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
+  
+  padding: 10px;
+  
+  
+ 	
+ 
+   
+   }
+   
+   
+  .galleryImages{
+	  width: 25em;
+	  height:auto;
+  }
+   #galleryImage1{
+	   
+	   width:45em;
+   }
+   
+   
+  .galleryImages:hover {box-shadow: 5px 5px 10px black;}
+}
+}

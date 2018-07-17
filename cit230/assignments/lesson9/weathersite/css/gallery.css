@@ -1,0 +1,55 @@
+
+	
+ #navButton { display:grid; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+   
+	
+	header, nav, main, footer { 
+  max-width:27em; 
+                          
+}
+	
+#Nav{
+	display:none;
+	flex-direction: row;
+	justify-content:space-between;
+	width: 35em;
+	
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 1 em;;
+max-width: 1600px;
+background-color: #f1f1a1;
+display: flex;
+margin: 1em;
+
+}
+li {
+float:left;
+
+}
+li a {
+display: grid;
+color: black;
+text-align: center;
+padding: 8px 9px;
+background-color: #f1f1a1;
+
+}
+#galleryDIV {
+	display:grid;
+	height:24em;
+	margin: 1em;
+	width:100%;
+}
+.galleryImages{
+	height:8em;
+	max-width: 12em;
+	display: grid;
+	padding: 1em;
+}
+img:hover {box-shadow: 5px 5px 10px black;}
+

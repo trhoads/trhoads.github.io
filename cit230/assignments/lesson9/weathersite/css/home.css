@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html{
+box-sizing: border-box;   
+color:black;
+	background-color:#f1f1a1;
+	position:absolute;
+	max-width:37.5em;
+    padding:2em;
+	
+}
+#Nav{
+	display:none;
+	flex-direction: row;
+	justify-content:space-between;
+	width: 35em;
+	
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 1 em;;
+max-width: 1600px;
+background-color: #f1f1a1;
+display: flex;
+margin: 1em;
+
+}
+li {
+float:left;
+
+}
+li a {
+display: grid;
+color: black;
+text-align: center;
+padding: 8px 9px;
+background-color: #f1f1a1;
+
+}
+#myDiv{
+	width:100%;
+	display : flex;
+	flex-direction: row;
+	font-weight: bold;
+	flex-wrap: wrap;
+	margin: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	justify-content: end;
+	padding:10px;
+
+}   
+#myDiv:nth-child(odd){
+	
+	color: white; 
+	background-color:#dd1b42;
+}
+
+#myDiv:nth-child(even){
+	
+	color: black; 
+	background-color:#3257EF;
+}
+
+#title{
+	color: #ff5252;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.headlineImage{
+width: 50%;
+
+}
