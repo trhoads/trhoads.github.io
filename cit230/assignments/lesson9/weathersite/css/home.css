@@ -10,35 +10,64 @@ color:black;
     padding:2em;
 	
 }
+ul{
+	list-style-type: none;
+	display:none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1a1;
+	font-family: 'Pacifico', cursive;
+}
+
+li a {
+    display: grid;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color:  #ff5252;
+    color: white;
+}
+
+	
 #Nav{
 	display:none;
-	flex-direction: row;
-	justify-content:space-between;
-	width: 35em;
+	 max-width: 27em;
+	flex-direction:column;
 	
 }
 
 ul {
 list-style-type: none;
 margin: 0;
-padding: 1 em;;
-max-width: 1600px;
+padding: 1 em;
+
 background-color: #f1f1a1;
 display: flex;
 margin: 1em;
 
 }
 li {
-float:left;
+
 
 }
 li a {
-display: grid;
+display: flex;
 color: black;
 text-align: center;
 padding: 8px 9px;
 background-color: #f1f1a1;
 
+}
+
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width:25em; 
+                          /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 #myDiv{
 	width:100%;

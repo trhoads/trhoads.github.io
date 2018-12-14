@@ -18,3 +18,28 @@ function findWindChill(){
 	 document.getElementById('windChill').innerHTML = "Feels Like: " + windChill + " &deg;F" ;
 	
 }
+
+var requestURL = ' http://openweathermap.org/data/2.5/weather?q=Franklin&appid=b6907d289e10d714a6e88b30761fae22';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+      var obj = request.response;
+      test(obj);
+     
+    }
+    
+
+
+ function test(obj) {
+	 var section = document.querySelector('section');
+	
+	if(obj){
+	var weather  = obj.main;
+	var wind = obj.wind;
+	}
+ }
+ }
+ }}
+	

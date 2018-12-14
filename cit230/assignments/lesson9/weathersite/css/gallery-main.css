@@ -46,7 +46,7 @@ li a:hover {
 	display:none;
 	 max-width: 27em;
 	flex-direction:column;
-	
+	border: 1px solid black;
 }
 
 ul {

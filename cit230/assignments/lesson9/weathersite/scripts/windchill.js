@@ -1,16 +1,3 @@
-var requestURL = 'http://openweathermap.org/data/2.5/weather?zip=55333,us&units=imperial&appid=b6907d289e10d714a6e88b30761fae22';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL,'jsonp');
-    request.responseType = 'json';
-    
-    request.onload = function() {
-      var obj = request.response;
-      getWeather(obj);
-     
-    
-    }
-request.send();
-
 function findWindChill(){
 	var windChill;
 	var low = parseFloat(document.getElementById('hi').innerHTML);
@@ -32,14 +19,92 @@ function findWindChill(){
 	
 }
 
+//Greenville
+var requestURLGreenville = 'https://openweathermap.org/data/2.5/weather?q=Greenville,us&units=imperial&appid=b6907d289e10d714a6e88b30761fae22';
+    var requestGreenville = new XMLHttpRequest();
+    requestGreenville.open('GET', requestURLGreenville,'jsonp');
+    requestGreenville.responseType = 'json';
+    
+    requestGreenville.onload = function() {
+      var Gobj = requestGreenville.response;
+      getGreenvilleWeather(Gobj);
+     
+    
+    }
 
- function getWeather(obj) {
+
+
+
+
+ function getGreenvilleWeather(Gobj) {
 	 var section = document.querySelector('section');
 	
-	if(obj){
-	var main  = obj.main;
-	var wind = obj.wind;
-	var weather= obj.weather[0];
+	if(Gobj){
+	var main  = Gobj.main;
+	var wind = Gobj.wind;
+	var weather= Gobj.weather[0];
+	
+	document.getElementById('windSpeed'). innerHTML = wind.speed;
+	document.getElementById('hi').innerHTML = main.temp_max; 
+    document.getElementById('low').innerHTML = main.temp_min;
+	document.getElementById('weatherIcon').src = "http://openweathermap.org/img/w/"+weather.icon+".png";
+	document.getElementById('currentCondition').innerHTML = weather.main;
+	}
+
+	//Franklin
+var requestURLFranklin = 'https://openweathermap.org/data/2.5/weather?q=Franklin,us&units=imperial&appid=b6907d289e10d714a6e88b30761fae22';
+    var requestFranklin = new XMLHttpRequest();
+    requestFranklin.open('GET', requestURLFranklin,'jsonp');
+    requestFranklin.responseType = 'json';
+    
+    requestFranklin.onload = function() {
+      var Fobj = requestFranklin.response;
+      getFranklinWeather(Fobj);
+     
+    
+    }
+
+
+
+
+
+ function getFranklinWeather(Fobj) {
+	 var section = document.querySelector('section');
+	
+	if(Fobj){
+	var main  = Fobj.main;
+	var wind = Fobj.wind;
+	var weather= Fobj.weather[0];
+	
+	document.getElementById('id'). innerHTML = weather.id;
+	document.getElementById('windSpeed'). innerHTML = wind.speed;
+	document.getElementById('hi').innerHTML = main.temp_max; 
+    document.getElementById('low').innerHTML = main.temp_min;
+	document.getElementById('weatherIcon').src = "http://openweathermap.org/img/w/"+weather.icon+".png";
+	document.getElementById('currentCondition').innerHTML = weather.main;
+	}
+	
+	//Springfield
+	var requestURLSpringfield = 'https://openweathermap.org/data/2.5/weather?q=Greenville,us&units=imperial&appid=b6907d289e10d714a6e88b30761fae22';
+    var requestSpringfield = new XMLHttpRequest();
+    requestSpringfield.open('GET', requestURLSpringfield,'jsonp');
+    requestSpringfield.responseType = 'json';
+    
+    requestSpringfield.onload = function() {
+      var Sobj = requestSpringfield.response;
+      getSpringfieldWeather(Sobj);
+     
+    
+    }
+
+	
+	function getSpringfieldWeather(Sobj) {
+	 var section = document.querySelector('section');
+	
+	if(Sobj){
+	var main  = Sobj.main;
+	var wind = Sobj.wind;
+	var weather= Sobj.weather[0];
 	
 	document.getElementById('windSpeed'). innerHTML = wind.speed;
 	document.getElementById('hi').innerHTML = main.temp_max; 
@@ -48,4 +113,5 @@ function findWindChill(){
 	document.getElementById('currentCondition').innerHTML = weather.main;
 	}
  }
- 
+ }
+ }
